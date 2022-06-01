@@ -17,7 +17,7 @@ body {
     flex: 1 1 0;
     display: flex;
     align-items: center;
-    padding: 30px 13% 30px;
+    padding: 30px 13%;
     justify-content: center;
 }
 
@@ -29,7 +29,7 @@ body {
     flex: 0;
     background-color: #1F2937;
     justify-content: space-between;
-    padding: 10px 13% 10px;
+    padding: 10px 13%;
 }
 .logo {
     color: #F9FAF8;
@@ -156,13 +156,72 @@ button {
     color: #666;
     text-align: center;
     max-width: 150px;
+    margin: 7px;
 }
 
 /* End of Information */
 
+/* Quote */
+
 .quote {
     background-color: #E5E7EB;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 20%;
 }
+.quote-content {
+    flex: 1;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 2px;
+}
+.quote-author {
+    font-size: 22px;
+    align-self: flex-end;
+}
+.quote-author p {
+    margin-top: 2px;
+}
+
+/* End of Quote */
+
+/* Call to action */
+
+.blue-box {
+    flex: 1;
+    background-color: #3882F6;
+    border-radius: 6px;
+    display: flex;
+    padding: 30px 9%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-title {
+    color: #F9FAF8;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.call-text {
+    color: #E5E7EB;
+    font-size: 20px;
+}
+
+.button-space {
+    flex: 0 0 auto;
+    display: flex;
+}
+
+.blue-box button {
+    flex: 0 0 auto;
+    border: 2px solid #F9FAF8;
+    width: 130px;
+    height: 35px;
+}
+
+/* End of call to action */
 
 /* Footer */
 
