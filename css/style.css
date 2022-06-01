@@ -1,4 +1,5 @@
 /* Base CSS properties */
+
 html {
     background-color: #eee;
     font-family: 'Roboto', sans-serif;
@@ -19,9 +20,11 @@ body {
     padding: 30px 13% 30px;
     justify-content: center;
 }
+
 /* End of Base CSS properties */
 
 /* Header */
+
 .header {
     flex: 0;
     background-color: #1F2937;
@@ -56,9 +59,63 @@ a, a:visited {
 
 /* End of Header */
 
+/* Hero */
+
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding-top: 60px;
+    padding-bottom: 110px;
+}
+.hero > * {
+    flex-basis: 100%;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.hero-text-block h2, .placeholder {
+    font-size: 18px;
+}
+
+.hero-text-block h2 {
+    font-weight: 400;
+}
+
+.hero-text-block {
+    padding-right: 5%;
+}
+
+button {
+    font-size: 18px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding: 5px 30px;
+    border-radius: 8px;
+    border: 0px;
+}
+
+.placeholder {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #666;
+}
+
+/* End of Hero */
+
+/* Footer */
+
 .footer {
     flex: 0;
     background-color: #1F2937;
     color: #E5E7EB;
     font-size: 20px;
 }
+/* End of Footer */
